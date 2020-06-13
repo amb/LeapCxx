@@ -1,5 +1,9 @@
 set(PROJECT_EXECUTABLE_PATH ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/${CMAKE_CFG_INTDIR})
 
+cmake_policy(SET CMP0078 NEW)
+cmake_policy(SET CMP0086 NEW)
+
+
 set(LEAP_CPP_SRCS
   LeapC++.cpp
   LeapC++.h
